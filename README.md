@@ -9,6 +9,7 @@ App will be available to run on Android, iOS and Windows.
  - UI that covers adding and removing events, performing changes and notes for them.
      - Vertical or Horizontal line up
  - Archives for past events up to a Year
+ - Notifications -> special checkbox in events 'remind me!'
  - Widget -> a graphic timetable that sync with local system clock
 
 ## Phase Two - Extend to sync over internet
