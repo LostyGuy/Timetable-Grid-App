@@ -27,6 +27,10 @@ class _NavbarWidgetState extends State<NavbarWidget> {
             icon: Icon(Icons.person), 
             label: 'Profile'
             ),
+          NavigationDestination(
+            icon: Icon(Icons.support_agent), 
+            label: 'Support Me'
+            ),
           ],
           onDestinationSelected: (value) {
             selectedPageNotifier.value = value;

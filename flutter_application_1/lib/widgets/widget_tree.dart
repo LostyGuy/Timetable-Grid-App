@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/data/notifiers.dart';
+import 'package:flutter_application_1/views/pages/supportmepage.dart';
 import 'package:flutter_application_1/widgets/navbar_widget.dart';
 import 'package:flutter_application_1/views/pages/homepage.dart';
 import 'package:flutter_application_1/views/pages/profilepage.dart';
@@ -10,6 +11,7 @@ List<Widget> pages = [
   HomePage(),
   CalendarPage(),
   ProfilePage(),
+  SupportMePage(),
 ];
 
 class WidgetTree extends StatelessWidget {
@@ -21,7 +23,6 @@ class WidgetTree extends StatelessWidget {
       appBar: AppBar(
         title: Text('TimeTable'),
         centerTitle: true,
-        
       ),
       body: ValueListenableBuilder(
         valueListenable:  selectedPageNotifier,

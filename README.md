@@ -21,3 +21,9 @@ App will be available to run on Android, iOS and Windows.
  - Dart -> Flutter Framework
  - Python -> API Backend
  - SQLIte -> Local DB
+
+### To Do
+ - [ ] Ad section anchored to bottom
+ - [ ] Scrollable views
+ - [ ] Up to 4 elements in 'Upcomming Events' section -> Home
+ - [x]
